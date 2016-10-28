@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/nhc.css",
+	"sources": [
+		"../sass/nhc.scss"
+	],
+	"sourcesContent": [
+		"*{\n\tpadding: 0;\n\tmargin: 0;\n}"
+	],
+	"mappings": ";AAAA,AAAA,CAAC,CAAA;EACA,OAAO,EAAE,CAAE;EACX,MAAM,EAAE,CAAE;CACV",
+	"names": []
+}
