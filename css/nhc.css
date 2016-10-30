@@ -9,11 +9,26 @@
 }
 
 /* line 16, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
-html, body {
-  font-size: 10em;
+body {
+  font-size: 10px;
 }
 
-/* line 21, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+/* line 20, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+.lang-btn {
+  padding: 0.5em 1em;
+}
+
+/* line 24, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+.eng-arrow {
+  margin-left: 0.5em !important;
+}
+
+/* line 28, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+ul.tn-dd {
+  min-width: 6em;
+}
+
+/* line 32, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
 div.main-wrapper {
   border: solid 1px red;
 }

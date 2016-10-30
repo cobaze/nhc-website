@@ -6,17 +6,28 @@
 @import 'colors';
 
 $border: solid 1px;
-$body-font-size: 10em;
+$body-font-size: 10px;
 
 *{
 	padding: 0;
 	margin: 0;
 }
 
-html, body{
+body{
 	font-size: $body-font-size;
 }
 
+.lang-btn{
+	padding: 0.5em 1em;
+}
+
+.eng-arrow{
+	margin-left: 0.5em !important;
+}
+
+ul.tn-dd{
+	min-width: 6em;
+}
 
 div.main-wrapper{
 	border: $border red;
