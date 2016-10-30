@@ -1,7 +1,21 @@
-/* line 1, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+/* =imports
+-----------------------------------------------------------------------------*/
+/* START FONT FAMILY*/
+/* END FONT FAMILY*/
+/* line 11, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
 * {
   padding: 0;
   margin: 0;
+}
+
+/* line 16, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+html, body {
+  font-size: 10em;
+}
+
+/* line 21, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+div.main-wrapper {
+  border: solid 1px red;
 }
 
 /*# sourceMappingURL=../css/nhc.map */
