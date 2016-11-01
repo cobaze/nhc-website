@@ -17,7 +17,7 @@ $body-font-size: 10px;
 %button-hover-style{
 	color: $font-color-3;
 	background-color: transparent;
-	border: solid 2px gray;
+	border: solid 2px $font-color-3;
 }
 
 /* =style
@@ -30,6 +30,7 @@ $body-font-size: 10px;
 
 body{
 	font-size: $body-font-size;
+	font-family: $helvetica;
 }
 
 /* =language button style
@@ -37,10 +38,15 @@ body{
 
 header.main-header{
 	border: $border green;
+	background-image: url(../imgs/tr-img.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 15em;
 }
 
 .lang-btn{
 	padding: 0.5em 1em;
+	margin: 0.8em 0 0.8em 0;
 	@extend %button-hover-style;
 
 	&:hover{
@@ -60,12 +66,30 @@ header.main-header{
 	@extend %button-hover-style;
 }
 
+.search-bar{
+	border: $border red;
+	position: relative;
+	right: 9em;
+	margin-right: 0;
+}
+
+.sb-input{
+
+}
+
 .eng-arrow{
 	margin-left: 0.5em !important;
 }
 
 ul.tn-dd{
 	min-width: 5.3em;
+	left: 1.1em;
+	margin: -10px 0 0;
+	border: solid 2px $font-color-3;
+}
+
+.home-logo{
+	padding: 15px 0px 15px 0;
 }
 
 /* =index page style
@@ -77,10 +101,14 @@ div.main-wrapper{
 
 nav.main-nb{
 	background-color:$white-color;
-	position: absolute;
 }
 
 
+@media (min-width: 768px){
+	.nhc-nav{
+		float: right;
+	}
+}
 
 
 
