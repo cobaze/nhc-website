@@ -5,8 +5,23 @@
 @import 'fontfamily';
 @import 'colors';
 
+/* =variables
+-----------------------------------------------------------------------------*/
+
 $border: solid 1px;
 $body-font-size: 10px;
+
+/* =mixins
+-----------------------------------------------------------------------------*/
+
+%button-hover-style{
+	color: $font-color-3;
+	background-color: transparent;
+	border: solid 2px gray;
+}
+
+/* =style
+-----------------------------------------------------------------------------*/
 
 *{
 	padding: 0;
@@ -17,8 +32,32 @@ body{
 	font-size: $body-font-size;
 }
 
+/* =language button style
+-----------------------------------------------------------------------------*/
+
+header.main-header{
+	border: $border green;
+}
+
 .lang-btn{
 	padding: 0.5em 1em;
+	@extend %button-hover-style;
+
+	&:hover{
+	@extend %button-hover-style;
+	}
+}
+
+.lang-btn:hover,
+.open > .dropdown-toggle.lang-btn:focus,
+.open > .dropdown-toggle.lang-btn:hover,
+.lang-btn:active:focus,
+.lang-btn:active:hover,
+.lang-btn:focus,
+.lang-btn:active,
+.btn-primary:active,
+.open > .dropdown-toggle.btn-primary{
+	@extend %button-hover-style;
 }
 
 .eng-arrow{
@@ -26,9 +65,24 @@ body{
 }
 
 ul.tn-dd{
-	min-width: 6em;
+	min-width: 5.3em;
 }
+
+/* =index page style
+-----------------------------------------------------------------------------*/
 
 div.main-wrapper{
 	border: $border red;
 }
+
+nav.main-nb{
+	background-color:$white-color;
+	position: absolute;
+}
+
+
+
+
+
+
+

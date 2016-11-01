@@ -2,35 +2,71 @@
 -----------------------------------------------------------------------------*/
 /* START FONT FAMILY*/
 /* END FONT FAMILY*/
-/* line 11, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+/* =variables
+-----------------------------------------------------------------------------*/
+/* =mixins
+-----------------------------------------------------------------------------*/
+/* line 17, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+.lang-btn, .lang-btn:hover,
+.open > .dropdown-toggle.lang-btn:focus,
+.open > .dropdown-toggle.lang-btn:hover,
+.lang-btn:active:focus,
+.lang-btn:active:hover,
+.lang-btn:focus,
+.lang-btn:active,
+.btn-primary:active,
+.open > .dropdown-toggle.btn-primary {
+  color: #e6e7e8;
+  background-color: transparent;
+  border: solid 2px gray;
+}
+
+/* =style
+-----------------------------------------------------------------------------*/
+/* line 26, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
 * {
   padding: 0;
   margin: 0;
 }
 
-/* line 16, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+/* line 31, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
 body {
   font-size: 10px;
 }
 
-/* line 20, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+/* =language button style
+-----------------------------------------------------------------------------*/
+/* line 38, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+header.main-header {
+  border: solid 1px green;
+}
+
+/* line 42, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
 .lang-btn {
   padding: 0.5em 1em;
 }
 
-/* line 24, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+/* line 63, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
 .eng-arrow {
   margin-left: 0.5em !important;
 }
 
-/* line 28, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+/* line 67, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
 ul.tn-dd {
-  min-width: 6em;
+  min-width: 5.3em;
 }
 
-/* line 32, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+/* =index page style
+-----------------------------------------------------------------------------*/
+/* line 74, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
 div.main-wrapper {
   border: solid 1px red;
+}
+
+/* line 78, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+nav.main-nb {
+  background-color: #ffffff;
+  position: absolute;
 }
 
 /*# sourceMappingURL=../css/nhc.map */
