@@ -31,11 +31,11 @@
 
 /* line 31, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
 body {
-  font-size: 10px;
-  font-family: "helvetica neue", arial, helvetica, freesans, "liberation sans", "numbus sans l", sans-serif;
+  font-size: 1.4em;
+  font-family: "Roboto", sans-serif;
 }
 
-/* =language button style
+/* =header style
 -----------------------------------------------------------------------------*/
 /* line 39, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
 header.main-header {
@@ -47,12 +47,38 @@ header.main-header {
 }
 
 /* line 47, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+.home-logo {
+  padding: 1em 0 1em 1em;
+}
+
+/* line 51, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+nav.main-nb {
+  background-color: #ffffff;
+  border-color: transparent;
+  margin-bottom: 0;
+}
+
+/* line 57, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+.bottom-nav {
+  background-color: #AFDEF7;
+}
+
+/* =language button style
+-----------------------------------------------------------------------------*/
+/* line 64, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
 .lang-btn {
   padding: 0.5em 1em;
   margin: 0.8em 0 0.8em 0;
 }
 
-/* line 69, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+/* line 86, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+.eng-arrow {
+  margin-left: 0.5em !important;
+}
+
+/* =search bar style
+-----------------------------------------------------------------------------*/
+/* line 94, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
 .search-bar {
   border: solid 1px red;
   position: relative;
@@ -60,12 +86,15 @@ header.main-header {
   margin-right: 0;
 }
 
-/* line 80, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
-.eng-arrow {
-  margin-left: 0.5em !important;
+/* =nav links and dropdown style
+-----------------------------------------------------------------------------*/
+/* line 104, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+.custom-dp {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
 }
 
-/* line 84, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+/* line 109, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
 ul.tn-dd {
   min-width: 5.3em;
   left: 1.1em;
@@ -73,25 +102,15 @@ ul.tn-dd {
   border: solid 2px #075694;
 }
 
-/* line 91, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
-.home-logo {
-  padding: 15px 0px 15px 0;
-}
-
 /* =index page style
 -----------------------------------------------------------------------------*/
-/* line 98, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+/* line 119, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
 div.main-wrapper {
   border: solid 1px red;
 }
 
-/* line 102, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
-nav.main-nb {
-  background-color: #ffffff;
-}
-
 @media (min-width: 768px) {
-  /* line 108, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+  /* line 125, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
   .nhc-nav {
     float: right;
   }

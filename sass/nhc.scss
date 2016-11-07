@@ -15,9 +15,9 @@ $body-font-size: 10px;
 -----------------------------------------------------------------------------*/
 
 %button-hover-style{
-	color: $font-color-3;
+	color: $dark-blue;
 	background-color: transparent;
-	border: solid 2px $font-color-3;
+	border: solid 2px $dark-blue;
 }
 
 /* =style
@@ -29,11 +29,11 @@ $body-font-size: 10px;
 }
 
 body{
-	font-size: $body-font-size;
-	font-family: $helvetica;
+	font-size: 1.4em;
+	font-family: $roboto;
 }
 
-/* =language button style
+/* =header style
 -----------------------------------------------------------------------------*/
 
 header.main-header{
@@ -43,6 +43,23 @@ header.main-header{
 	background-position: right center;
 	background-size: 15em;
 }
+
+.home-logo{
+	padding: 1em 0 1em 1em;
+}
+
+nav.main-nb{
+	background-color:$white-color;
+	border-color: transparent;
+	margin-bottom: 0;
+}
+
+.bottom-nav{
+	background-color: $light-blue;
+}
+
+/* =language button style
+-----------------------------------------------------------------------------*/
 
 .lang-btn{
 	padding: 0.5em 1em;
@@ -66,6 +83,14 @@ header.main-header{
 	@extend %button-hover-style;
 }
 
+.eng-arrow{
+	margin-left: 0.5em !important;
+}
+
+
+/* =search bar style
+-----------------------------------------------------------------------------*/
+
 .search-bar{
 	border: $border red;
 	position: relative;
@@ -73,23 +98,19 @@ header.main-header{
 	margin-right: 0;
 }
 
-.sb-input{
+/* =nav links and dropdown style
+-----------------------------------------------------------------------------*/
 
-}
-
-.eng-arrow{
-	margin-left: 0.5em !important;
+.custom-dp{
+	font-family: $roboto;
+	font-size: 1em;
 }
 
 ul.tn-dd{
 	min-width: 5.3em;
 	left: 1.1em;
 	margin: -10px 0 0;
-	border: solid 2px $font-color-3;
-}
-
-.home-logo{
-	padding: 15px 0px 15px 0;
+	border: solid 2px $dark-blue;
 }
 
 /* =index page style
@@ -97,10 +118,6 @@ ul.tn-dd{
 
 div.main-wrapper{
 	border: $border red;
-}
-
-nav.main-nb{
-	background-color:$white-color;
 }
 
 
