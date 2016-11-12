@@ -6,7 +6,7 @@
 -----------------------------------------------------------------------------*/
 /* =mixins
 -----------------------------------------------------------------------------*/
-/* line 17, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+/* line 17, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
 .lang-btn, .lang-btn:hover,
 .open > .dropdown-toggle.lang-btn:focus,
 .open > .dropdown-toggle.lang-btn:hover,
@@ -21,96 +21,158 @@
   border: solid 2px #075694;
 }
 
-/* =style
+/* =Remember Order Of Styling Links
 -----------------------------------------------------------------------------*/
-/* line 26, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
-* {
+/* line 26, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
+a:link, a:visited, a:hover, a:focus, a:active * {
   padding: 0;
   margin: 0;
 }
 
-/* line 31, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+/* line 36, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
 body {
-  font-size: 1.4em;
+  font-size: 1.4rem;
   font-family: "Roboto", sans-serif;
 }
 
 /* =header style
 -----------------------------------------------------------------------------*/
-/* line 39, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+/* line 44, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
 header.main-header {
-  border: solid 1px green;
   background-image: url(../imgs/tr-img.png);
   background-repeat: no-repeat;
-  background-position: right center;
-  background-size: 15em;
+  background-position: right 0rem;
+  background-size: 15rem;
 }
 
-/* line 47, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
-.home-logo {
-  padding: 1em 0 1em 1em;
+/* line 53, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
+.home-logo h1 {
+  padding: 13px 15px;
+  margin: 0;
+  font-size: 2.5rem;
+  color: #075694;
+  font-weight: bolder;
 }
 
-/* line 51, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+/* line 62, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
+a.nav-links {
+  color: #075694 !important;
+  font-weight: bolder;
+}
+
+/* line 67, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
+a.nav-links:hover, a.nav-links:focus, a.nav-links:active {
+  background-color: #F15A24 !important;
+  color: #ffffff !important;
+  border: transparent !important;
+  font-weight: bold !important;
+}
+
+/* line 75, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
 nav.main-nb {
-  background-color: #ffffff;
+  background-color: #AFDEF7;
   border-color: transparent;
   margin-bottom: 0;
 }
 
-/* line 57, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+/* line 81, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
+.btn-sub {
+  color: #075694;
+  font-weight: bold;
+}
+
+/* line 85, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
+.btn-sub:hover {
+  background-color: #F15A24;
+  color: #ffffff;
+  border: transparent;
+  font-weight: bold;
+}
+
+/* line 93, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
 .bottom-nav {
   background-color: #AFDEF7;
+  border-bottom: solid #075694 0.7rem;
 }
 
 /* =language button style
 -----------------------------------------------------------------------------*/
-/* line 64, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+/* line 101, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
 .lang-btn {
-  padding: 0.5em 1em;
-  margin: 0.8em 0 0.8em 0;
+  padding: 0.5rem 1rem;
+  margin: 0.8rem 0 0.8rem 0;
 }
 
-/* line 86, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+/* line 123, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  background-color: #F15A24;
+}
+
+/* line 129, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
 .eng-arrow {
-  margin-left: 0.5em !important;
+  margin-left: 0.5rem !important;
 }
 
 /* =search bar style
 -----------------------------------------------------------------------------*/
-/* line 94, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+/* line 137, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
 .search-bar {
-  border: solid 1px red;
   position: relative;
-  right: 9em;
+  right: 9rem;
   margin-right: 0;
 }
 
 /* =nav links and dropdown style
 -----------------------------------------------------------------------------*/
-/* line 104, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+/* line 146, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
 .custom-dp {
   font-family: "Roboto", sans-serif;
-  font-size: 1em;
+  font-size: 1.5rem;
+  background-color: #F15A24;
 }
 
-/* line 109, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+/* line 156, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
+ul.top-level li a {
+  color: #075694 !important;
+}
+
+/* line 162, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
 ul.tn-dd {
-  min-width: 5.3em;
-  left: 1.1em;
-  margin: -10px 0 0;
-  border: solid 2px #075694;
+  min-width: 5.3rem;
+  left: 1.5rem;
+  padding: 0;
+}
+
+/* line 168, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
+ul.tn-dd a {
+  color: #075694;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+/* line 173, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
+ul.tn-dd a:hover {
+  background-color: #F15A24;
+  color: #ffffff;
+}
+
+/* line 180, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
+ul.tn-dd:hover {
+  background-color: #F15A24;
+  color: #ffffff;
 }
 
 /* =index page style
 -----------------------------------------------------------------------------*/
-/* line 119, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+/* line 189, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
 div.main-wrapper {
   border: solid 1px red;
 }
 
 @media (min-width: 768px) {
-  /* line 125, /Users/chuckobazemacbookpro/Documents/nhc-website/sass/nhc.scss */
+  /* line 195, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
   .nhc-nav {
     float: right;
   }

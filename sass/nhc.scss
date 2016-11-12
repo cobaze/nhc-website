@@ -20,6 +20,11 @@ $body-font-size: 10px;
 	border: solid 2px $dark-blue;
 }
 
+/* =Remember Order Of Styling Links
+-----------------------------------------------------------------------------*/
+
+a:link, a:visited, a:hover, a:focus, a:active
+
 /* =style
 -----------------------------------------------------------------------------*/
 
@@ -29,7 +34,7 @@ $body-font-size: 10px;
 }
 
 body{
-	font-size: 1.4em;
+	font-size: 1.4rem;
 	font-family: $roboto;
 }
 
@@ -37,33 +42,65 @@ body{
 -----------------------------------------------------------------------------*/
 
 header.main-header{
-	border: $border green;
 	background-image: url(../imgs/tr-img.png);
 	background-repeat: no-repeat;
-	background-position: right center;
-	background-size: 15em;
+	background-position:right 0rem;
+	background-size: 15rem;
 }
 
 .home-logo{
-	padding: 1em 0 1em 1em;
+
+	h1{
+		padding: 13px 15px;
+		margin: 0;
+		font-size: 2.5rem;
+		color: $dark-blue;
+		font-weight: bolder;
+	}
+}
+
+a.nav-links{
+	color: $dark-blue !important;
+	font-weight: bolder;
+
+
+	&:hover, &:focus, &:active{
+		background-color: $orange-color !important;
+		color: $white-color !important;
+		border: transparent !important;
+		font-weight: bold !important;
+	}
 }
 
 nav.main-nb{
-	background-color:$white-color;
+	background-color:$light-blue;
 	border-color: transparent;
 	margin-bottom: 0;
 }
 
+.btn-sub{
+	color: $dark-blue;
+	font-weight: bold;
+
+	&:hover{
+		background-color: $orange-color;
+		color: $white-color;
+		border: transparent;
+		font-weight: bold;
+	}
+}
+
 .bottom-nav{
 	background-color: $light-blue;
+	border-bottom: solid $dark-blue 0.7rem;
 }
 
 /* =language button style
 -----------------------------------------------------------------------------*/
 
 .lang-btn{
-	padding: 0.5em 1em;
-	margin: 0.8em 0 0.8em 0;
+	padding: 0.5rem 1rem;
+	margin: 0.8rem 0 0.8rem 0;
 	@extend %button-hover-style;
 
 	&:hover{
@@ -83,8 +120,14 @@ nav.main-nb{
 	@extend %button-hover-style;
 }
 
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover{
+	background-color: $orange-color;
+}
+
 .eng-arrow{
-	margin-left: 0.5em !important;
+	margin-left: 0.5rem !important;
 }
 
 
@@ -92,9 +135,8 @@ nav.main-nb{
 -----------------------------------------------------------------------------*/
 
 .search-bar{
-	border: $border red;
 	position: relative;
-	right: 9em;
+	right: 9rem;
 	margin-right: 0;
 }
 
@@ -103,14 +145,42 @@ nav.main-nb{
 
 .custom-dp{
 	font-family: $roboto;
-	font-size: 1em;
+	font-size: 1.5rem;
+	background-color: $orange-color;
+}
+
+ul.top-level{
+
+	li{
+
+		a{
+			color: $dark-blue !important;
+		}
+	}
 }
 
 ul.tn-dd{
-	min-width: 5.3em;
-	left: 1.1em;
-	margin: -10px 0 0;
-	border: solid 2px $dark-blue;
+	min-width: 5.3rem;
+	left: 1.5rem;
+
+	padding: 0;
+
+	a{
+		color: $dark-blue;
+		padding: 0.5rem;
+		text-align: center;
+
+			&:hover{
+			background-color: $orange-color;
+			color: $white-color;
+		}
+
+	}
+
+	&:hover{
+			background-color: $orange-color;
+			color: $white-color;
+		}
 }
 
 /* =index page style
