@@ -133,32 +133,32 @@ nav.main-nb {
   background-color: #F15A24;
 }
 
-/* line 156, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
+/* line 163, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
 ul.top-level li a {
   color: #075694 !important;
 }
 
-/* line 162, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
+/* line 169, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
 ul.tn-dd {
   min-width: 5.3rem;
   left: 1.5rem;
   padding: 0;
 }
 
-/* line 168, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
+/* line 175, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
 ul.tn-dd a {
   color: #075694;
   padding: 0.5rem;
   text-align: center;
 }
 
-/* line 173, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
+/* line 180, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
 ul.tn-dd a:hover {
   background-color: #F15A24;
   color: #ffffff;
 }
 
-/* line 180, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
+/* line 187, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
 ul.tn-dd:hover {
   background-color: #F15A24;
   color: #ffffff;
@@ -166,13 +166,13 @@ ul.tn-dd:hover {
 
 /* =index page style
 -----------------------------------------------------------------------------*/
-/* line 189, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
+/* line 196, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
 div.main-wrapper {
   border: solid 1px red;
 }
 
 @media (min-width: 768px) {
-  /* line 195, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
+  /* line 202, /Users/chuckobazeimac/Documents/nhc-website/sass/nhc.scss */
   .nhc-nav {
     float: right;
   }
